@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Svijetlo plava pozadina */
+}
+
+.navbar {
+  background-color: #4CAF50; /* Zelena boja za navbar */
+  color: white;
+  padding: 1rem;
+}
+
+.navbar ul li a {
+  color: #f0f8ff; /* Svijetlo plava za linkove */
+}
+
+.navbar ul li a:hover {
+  color: #FFD700; /* Zlatna boja kada se pređe preko linkova */
+}
+
+.footer {
+  background-color: #1E90FF; /* Plava boja za footer */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.home, .login, .register {
+  padding: 2rem;
+  text-align: center;
+  background-color: #FFFAFA; /* Svijetlo roza pozadina za glavne sekcije */
+  color: #333;
+}
+
+form div {
+  margin: 1rem 0;
+  color: #4CAF50; /* Zelena boja za tekst unutar formi */
+}
+
+form div input {
+  border: 2px solid #FF7F50; /* Koralična boja za okvire input polja */
+}
